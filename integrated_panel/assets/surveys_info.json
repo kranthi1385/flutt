@@ -1,0 +1,151 @@
+[
+    {
+        "SurveyID": 309058,
+        "WaveId": 356570,
+        "Name": "1274199-US-IPDS6",
+        "URL": "https://training.ups.toluna.com/TrafficUI/MSCUI/Page.aspx?pgtid=20&di=1D7Mcmb072CC3bkDSOuWbCRTDfJn07m3M7eE1zCJUt7jA1MCqxE1AJMkX3llTjGKh9L9pKA68hOE2I9zUgXhaVgeYj0QE4E41107",
+        "Duration": "2",
+        "IR": 100,
+        "MemberAmount": 0.0,
+        "PartnerAmount": 199.00
+    },
+    {
+        "SurveyID": 309059,
+        "WaveId": 356570,
+        "Name": "1274199-US-IPDS8",
+        "URL": "https://training.ups.toluna.com/TrafficUI/MSCUI/Page.aspx?pgtid=20&di=1D7Mcmb072CC3bkDSOuWbCRTDfJn07m3M7eE1zCJUt7jA1MCqxE1AJMkX3llTjGKh9L9pKA68hOE2I9zUgXhaVgeYj0QE4E41107",
+        "Duration": "5",
+        "IR": 99,
+        "MemberAmount": 0.0,
+        "PartnerAmount": 199.00
+    },
+    {
+        "SurveyID": 309060,
+        "WaveId": 356570,
+        "Name": "1274199-US-IPDS9",
+        "URL": "https://training.ups.toluna.com/TrafficUI/MSCUI/Page.aspx?pgtid=20&di=1D7Mcmb072CC3bkDSOuWbCRTDfJn07m3M7eE1zCJUt7jA1MCqxE1AJMkX3llTjGKh9L9pKA68hOE2I9zUgXhaVgeYj0QE4E41107",
+        "Duration": "4",
+        "IR": 85,
+        "MemberAmount": 0.0,
+        "PartnerAmount": 199.00
+    },
+    {
+        "SurveyID": 309061,
+        "WaveId": 356570,
+        "Name": "1274199-US-IPDS10",
+        "URL": "https://training.ups.toluna.com/TrafficUI/MSCUI/Page.aspx?pgtid=20&di=1D7Mcmb072CC3bkDSOuWbCRTDfJn07m3M7eE1zCJUt7jA1MCqxE1AJMkX3llTjGKh9L9pKA68hOE2I9zUgXhaVgeYj0QE4E41107",
+        "Duration": "6",
+        "IR": 89,
+        "MemberAmount": 0.0,
+        "PartnerAmount": 199.00
+    },{
+        "SurveyID": 309062,
+        "WaveId": 356570,
+        "Name": "1274199-US-IPDS11",
+        "URL": "https://training.ups.toluna.com/TrafficUI/MSCUI/Page.aspx?pgtid=20&di=1D7Mcmb072CC3bkDSOuWbCRTDfJn07m3M7eE1zCJUt7jA1MCqxE1AJMkX3llTjGKh9L9pKA68hOE2I9zUgXhaVgeYj0QE4E41107",
+        "Duration": "8",
+        "IR": 65,
+        "MemberAmount": 0.0,
+        "PartnerAmount": 199.00
+    }
+    ,{
+        "SurveyID": 309063,
+        "WaveId": 356570,
+        "Name": "1274199-US-IPDS12",
+        "URL": "https://training.ups.toluna.com/TrafficUI/MSCUI/Page.aspx?pgtid=20&di=1D7Mcmb072CC3bkDSOuWbCRTDfJn07m3M7eE1zCJUt7jA1MCqxE1AJMkX3llTjGKh9L9pKA68hOE2I9zUgXhaVgeYj0QE4E41107",
+        "Duration": "8",
+        "IR": 65,
+        "MemberAmount": 0.0,
+        "PartnerAmount": 199.00
+    }
+    ,{
+        "SurveyID": 309064,
+        "WaveId": 356570,
+        "Name": "1274199-US-IPDS13",
+        "URL": "https://training.ups.toluna.com/TrafficUI/MSCUI/Page.aspx?pgtid=20&di=1D7Mcmb072CC3bkDSOuWbCRTDfJn07m3M7eE1zCJUt7jA1MCqxE1AJMkX3llTjGKh9L9pKA68hOE2I9zUgXhaVgeYj0QE4E41107",
+        "Duration": "8",
+        "IR": 65,
+        "MemberAmount": 0.0,
+        "PartnerAmount": 199.00
+    }
+    ,{
+        "SurveyID": 309065,
+        "WaveId": 356570,
+        "Name": "1274199-US-IPDS14",
+        "URL": "https://training.ups.toluna.com/TrafficUI/MSCUI/Page.aspx?pgtid=20&di=1D7Mcmb072CC3bkDSOuWbCRTDfJn07m3M7eE1zCJUt7jA1MCqxE1AJMkX3llTjGKh9L9pKA68hOE2I9zUgXhaVgeYj0QE4E41107",
+        "Duration": "8",
+        "IR": 65,
+        "MemberAmount": 0.0,
+        "PartnerAmount": 199.00
+    }
+    ,{
+        "SurveyID": 309066,
+        "WaveId": 356570,
+        "Name": "1274199-US-IPDS15",
+        "URL": "https://training.ups.toluna.com/TrafficUI/MSCUI/Page.aspx?pgtid=20&di=1D7Mcmb072CC3bkDSOuWbCRTDfJn07m3M7eE1zCJUt7jA1MCqxE1AJMkX3llTjGKh9L9pKA68hOE2I9zUgXhaVgeYj0QE4E41107",
+        "Duration": "8",
+        "IR": 65,
+        "MemberAmount": 0.0,
+        "PartnerAmount": 199.00
+    }
+    ,{
+        "SurveyID": 309067,
+        "WaveId": 356570,
+        "Name": "1274199-US-IPDS16",
+        "URL": "https://training.ups.toluna.com/TrafficUI/MSCUI/Page.aspx?pgtid=20&di=1D7Mcmb072CC3bkDSOuWbCRTDfJn07m3M7eE1zCJUt7jA1MCqxE1AJMkX3llTjGKh9L9pKA68hOE2I9zUgXhaVgeYj0QE4E41107",
+        "Duration": "8",
+        "IR": 65,
+        "MemberAmount": 0.0,
+        "PartnerAmount": 199.00
+    }
+    ,{
+        "SurveyID": 309068,
+        "WaveId": 356570,
+        "Name": "1274199-US-IPDS17",
+        "URL": "https://training.ups.toluna.com/TrafficUI/MSCUI/Page.aspx?pgtid=20&di=1D7Mcmb072CC3bkDSOuWbCRTDfJn07m3M7eE1zCJUt7jA1MCqxE1AJMkX3llTjGKh9L9pKA68hOE2I9zUgXhaVgeYj0QE4E41107",
+        "Duration": "8",
+        "IR": 65,
+        "MemberAmount": 0.0,
+        "PartnerAmount": 199.00
+    }
+    ,{
+        "SurveyID": 309069,
+        "WaveId": 356570,
+        "Name": "1274199-US-IPDS18",
+        "URL": "https://training.ups.toluna.com/TrafficUI/MSCUI/Page.aspx?pgtid=20&di=1D7Mcmb072CC3bkDSOuWbCRTDfJn07m3M7eE1zCJUt7jA1MCqxE1AJMkX3llTjGKh9L9pKA68hOE2I9zUgXhaVgeYj0QE4E41107",
+        "Duration": "8",
+        "IR": 65,
+        "MemberAmount": 0.0,
+        "PartnerAmount": 199.00
+    }
+    ,{
+        "SurveyID": 309070,
+        "WaveId": 356570,
+        "Name": "1274199-US-IPDS19",
+        "URL": "https://training.ups.toluna.com/TrafficUI/MSCUI/Page.aspx?pgtid=20&di=1D7Mcmb072CC3bkDSOuWbCRTDfJn07m3M7eE1zCJUt7jA1MCqxE1AJMkX3llTjGKh9L9pKA68hOE2I9zUgXhaVgeYj0QE4E41107",
+        "Duration": "8",
+        "IR": 65,
+        "MemberAmount": 0.0,
+        "PartnerAmount": 199.00
+    }
+    ,{
+        "SurveyID": 309071,
+        "WaveId": 356570,
+        "Name": "1274199-US-IPDS20",
+        "URL": "https://training.ups.toluna.com/TrafficUI/MSCUI/Page.aspx?pgtid=20&di=1D7Mcmb072CC3bkDSOuWbCRTDfJn07m3M7eE1zCJUt7jA1MCqxE1AJMkX3llTjGKh9L9pKA68hOE2I9zUgXhaVgeYj0QE4E41107",
+        "Duration": "8",
+        "IR": 65,
+        "MemberAmount": 0.0,
+        "PartnerAmount": 199.00
+    }
+    ,{
+        "SurveyID": 309072,
+        "WaveId": 356570,
+        "Name": "1274199-US-IPDS21",
+        "URL": "https://training.ups.toluna.com/TrafficUI/MSCUI/Page.aspx?pgtid=20&di=1D7Mcmb072CC3bkDSOuWbCRTDfJn07m3M7eE1zCJUt7jA1MCqxE1AJMkX3llTjGKh9L9pKA68hOE2I9zUgXhaVgeYj0QE4E41107",
+        "Duration": "8",
+        "IR": 65,
+        "MemberAmount": 0.0,
+        "PartnerAmount": 199.00
+    }
+]

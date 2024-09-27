@@ -1,0 +1,17 @@
+{
+    "show_more": "mostrar más",
+    "continue": "Continuar",
+    "dateOfBirth":"Fecha de nacimiento",
+    "registration_description": "Por favor, proporcione sus datos a continuación para acceder a las encuestas disponibles para usted.",
+    "success_message": "¡Felicidades! ¡Acabas de completar esta encuesta! Y obtuviste xxx como recompensa.",
+    "qf_message": "Lo sentimos, esta encuesta acaba de llenarse.",
+    "so_message": "Gracias por tu tiempo, pero estamos buscando un perfil ligeramente diferente.",
+    "terminated_message": "Gracias por tu tiempo, pero estamos buscando un perfil ligeramente diferente.",
+    "error":"Algo salió mal",
+    "no_survey":"No hay encuestas disponibles.",
+    "duration":"min",
+    "error_label":"No es válido o no puede estar vacío",
+    "almost_there":"Casi llegamos",
+    "survey":"Encuesta",
+    "consent":"Este programa de encuestas lo administra Toluna. Al enviar este formulario, acepta recibir invitaciones a encuestas por correo electrónico y nuestros Términos de uso y Política de privacidad. ¡Su privacidad es extremadamente importante para nosotros! Nunca venderemos, alquilaremos ni cederemos su información personal a terceros sin su consentimiento."
+}

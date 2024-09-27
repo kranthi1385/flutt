@@ -1,0 +1,30 @@
+name: flutter_integrate_ip
+description: A new Flutter project.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  integrated_panel:
+    path: ../integrated_panel
+  webview_flutter: 4.7.0
+  http: 1.2.2
+  provider: null
+  connectivity_plus: ^6.0.5
+  shared_preferences: ^2.0.9
+  http_proxy:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Toluna-Logo.png
+    - assets/

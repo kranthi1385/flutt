@@ -1,0 +1,19 @@
+{
+    
+    "continue": "Continue",
+    "dateOfBirth":"Date of Birth",
+    "registration_description":"Please provide your details below to access the available surveys for you.",
+    "success_message":"Congratulations! You have just completed this survey!",
+    "qf_message":"We're sorry, this survey just filled up.",
+    "so_message":"Thanks for your time, but we're looking for a slightly different profile.",
+    "terminated_message":"Thanks for your time, but we're looking for a slightly different profile.",
+    "error":"something went wrong",
+    "no_survey":"No surveys available.",
+    "show_more": "show more",
+    "duration":"min",
+    "error_label":"is not Valid or Cannot be empty",
+    "almost_there":"Almost There",
+    "survey":"Survey",
+    "consent":"This survey program is managed by Toluna. By submitting this form you agree to receive survey invitations via email and our Terms of Use and Privacy Policy. Your Privacy is extremely important to us! We will never sell, rent or lease your personally identifiable information to others without your consent."  
+}
+  

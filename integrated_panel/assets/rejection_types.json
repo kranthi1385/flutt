@@ -1,0 +1,702 @@
+[
+    {
+        "RespondentRejectionTypeID": 1,
+        "PartnerRejectionName": "Undefined",
+        "PartnerRejectionDescription": "Router returned a value that is not currently interpreted."
+    },
+    {
+        "RespondentRejectionTypeID": 2,
+        "PartnerRejectionName": "MaxDailySurveys",
+        "PartnerRejectionDescription": "Respondent has taken the maximum number of surveys allowed per calendar day."
+    },
+    {
+        "RespondentRejectionTypeID": 3,
+        "PartnerRejectionName": "NoCookies",
+        "PartnerRejectionDescription": "Respondent does not have cookies enabled."
+    },
+    {
+        "RespondentRejectionTypeID": 4,
+        "PartnerRejectionName": "SurveyTaken",
+        "PartnerRejectionDescription": "Respondent has already taken the survey."
+    },
+    {
+        "RespondentRejectionTypeID": 5,
+        "PartnerRejectionName": "SampleOrderFilled",
+        "PartnerRejectionDescription": "The sample order is full."
+    },
+    {
+        "RespondentRejectionTypeID": 6,
+        "PartnerRejectionName": "SampleOrderOnHold",
+        "PartnerRejectionDescription": "The oss respondent responded to an invitation but the sample order is currently on hold."
+    },
+    {
+        "RespondentRejectionTypeID": 7,
+        "PartnerRejectionName": "NotRoutable",
+        "PartnerRejectionDescription": "The respondent belongs to a Panel Type that is not routed."
+    },
+    {
+        "RespondentRejectionTypeID": 8,
+        "PartnerRejectionName": "MaxWeeklySurveys",
+        "PartnerRejectionDescription": "Respondent has taken the maximum number of surveys allowed per calendar week."
+    },
+    {
+        "RespondentRejectionTypeID": 9,
+        "PartnerRejectionName": "QuotaFull",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) was invited to a quota that is now full."
+    },
+    {
+        "RespondentRejectionTypeID": 10,
+        "PartnerRejectionName": "RestartNotAllowed",
+        "PartnerRejectionDescription": "Invited panelist attempted to restart in a survey but it has reached the restart limit allowed."
+    },
+    {
+        "RespondentRejectionTypeID": 11,
+        "PartnerRejectionName": "QuotaOnHold",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) responded to an invitation but the quota is currently on hold."
+    },
+    {
+        "RespondentRejectionTypeID": 12,
+        "PartnerRejectionName": "SystemError",
+        "PartnerRejectionDescription": "A system error occurred."
+    },
+    {
+        "RespondentRejectionTypeID": 13,
+        "PartnerRejectionName": "NotEnabledInvite",
+        "PartnerRejectionDescription": "The panelist responded to an invitation but the survey is currently not enabled for invites."
+    },
+    {
+        "RespondentRejectionTypeID": 14,
+        "PartnerRejectionName": "NotQualified",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) did not qualify for the quota to which they were invited."
+    },
+    {
+        "RespondentRejectionTypeID": 15,
+        "PartnerRejectionName": "QuotaNotFound",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) responded to an invitation but the quota was not found in router’s cache."
+    },
+    {
+        "RespondentRejectionTypeID": 16,
+        "PartnerRejectionName": "SurveyOnHold",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) responded to an invitation but the quota is currently on hold."
+    },
+    {
+        "RespondentRejectionTypeID": 17,
+        "PartnerRejectionName": "QuotaVoid",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) responded to an invitation but the quota was voided."
+    },
+    {
+        "RespondentRejectionTypeID": 18,
+        "PartnerRejectionName": "SubQuotaOnHold",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) responded to an invitation but the subquota is currently on hold."
+    },
+    {
+        "RespondentRejectionTypeID": 19,
+        "PartnerRejectionName": "SubQuotaFull",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) was invited to a quota and a subquota to which they match is now full."
+    },
+    {
+        "RespondentRejectionTypeID": 20,
+        "PartnerRejectionName": "NoSurveysFound",
+        "PartnerRejectionDescription": "Attempted to route a respondent to a survey but no survey was found. This could be the result of a panelist that is extremely active on our panel, or a country where we don't have many survey enabled for routing."
+    },
+    {
+        "RespondentRejectionTypeID": 21,
+        "PartnerRejectionName": "NotEnabledOSS",
+        "PartnerRejectionDescription": "The oss respondent responded to an invitation but the survey is currently not enabled for oss."
+    },
+    {
+        "RespondentRejectionTypeID": 22,
+        "PartnerRejectionName": "WaveNotAvailable",
+        "PartnerRejectionDescription": "The survey’s current wave is currently not available."
+    },
+    {
+        "RespondentRejectionTypeID": 23,
+        "PartnerRejectionName": "ExcludedSurveyTaken",
+        "PartnerRejectionDescription": "The panelist had previously taken a survey which procluded them from taking the suvey to which they were invited."
+    },
+    {
+        "RespondentRejectionTypeID": 24,
+        "PartnerRejectionName": "MissingInviteParam",
+        "PartnerRejectionDescription": "An invite query string was missing one or more required parameter."
+    },
+    {
+        "RespondentRejectionTypeID": 25,
+        "PartnerRejectionName": "SurveyNotFound",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) responded to an invitation but the survey was not found in router’s cache."
+    },
+    {
+        "RespondentRejectionTypeID": 26,
+        "PartnerRejectionName": "SubQuotaScheduleFull",
+        "PartnerRejectionDescription": "The subquota is not available because it currently has the required number of scheduled starts."
+    },
+    {
+        "RespondentRejectionTypeID": 27,
+        "PartnerRejectionName": "NoMatchSurveyPanelType",
+        "PartnerRejectionDescription": "The respondent (panelist) panel type is not defined for the survey."
+    },
+    {
+        "RespondentRejectionTypeID": 28,
+        "PartnerRejectionName": "NoMatchCountryLanguage",
+        "PartnerRejectionDescription": "The country/language of the respondent does not match that of the survey."
+    },
+    {
+        "RespondentRejectionTypeID": 29,
+        "PartnerRejectionName": "IncorrectSurveyStatus",
+        "PartnerRejectionDescription": "The requested survey has a status that is incorrect for the requested operation."
+    },
+    {
+        "RespondentRejectionTypeID": 30,
+        "PartnerRejectionName": "IncorrectWaveStatus",
+        "PartnerRejectionDescription": "The current wave of the requested survey has a status that is incorrect for the requested operation."
+    },
+    {
+        "RespondentRejectionTypeID": 31,
+        "PartnerRejectionName": "NotEnabledAutomatedEmail",
+        "PartnerRejectionDescription": "The survey is not available to respondents whose channel id is automated email."
+    },
+    {
+        "RespondentRejectionTypeID": 32,
+        "PartnerRejectionName": "NotEnabledAutomatedSAM",
+        "PartnerRejectionDescription": "The survey is not available to respondents whose channel id is automated SAM."
+    },
+    {
+        "RespondentRejectionTypeID": 33,
+        "PartnerRejectionName": "NotEnabledAutomatedMSC",
+        "PartnerRejectionDescription": "The survey is not available to respondents whose channel id is MSC."
+    },
+    {
+        "RespondentRejectionTypeID": 34,
+        "PartnerRejectionName": "NotEnabledAutomatedReroute",
+        "PartnerRejectionDescription": "The survey is not available to respondents whose channel id is Reroute."
+    },
+    {
+        "RespondentRejectionTypeID": 35,
+        "PartnerRejectionName": "NotEnabledAutomatedRiver",
+        "PartnerRejectionDescription": "The survey is not available to respondents whose channel id is RTS."
+    },
+    {
+        "RespondentRejectionTypeID": 36,
+        "PartnerRejectionName": "SubQuotaNotFound",
+        "PartnerRejectionDescription": "The Virtual Panel asks router if its OK to start a QualifiedQuota. Router discovers that one of the SubQuotas is no longer in cache."
+    },
+    {
+        "RespondentRejectionTypeID": 37,
+        "PartnerRejectionName": "LayerNotFound",
+        "PartnerRejectionDescription": "The Virtual Panel asks router if its OK to start a QualifiedQuota. Router discovers that one of the Layers is no longer in cache."
+    },
+    {
+        "RespondentRejectionTypeID": 38,
+        "PartnerRejectionName": "Abandoned",
+        "PartnerRejectionDescription": "The respondent abandoned the process before being routed or otherwise terminated."
+    },
+    {
+        "RespondentRejectionTypeID": 39,
+        "PartnerRejectionName": "SubQuotaExclude",
+        "PartnerRejectionDescription": "The respondent matches a sub-quota whose size = 0. No matching respondents are wanted."
+    },
+    {
+        "RespondentRejectionTypeID": 40,
+        "PartnerRejectionName": "RtsCountryDisabled",
+        "PartnerRejectionDescription": "Real time sampling for the respondent's country is disabled."
+    },
+    {
+        "RespondentRejectionTypeID": 41,
+        "PartnerRejectionName": "RtsCountryNoMales",
+        "PartnerRejectionDescription": "Real time sampling for males in the respondent's country is disabled."
+    },
+    {
+        "RespondentRejectionTypeID": 42,
+        "PartnerRejectionName": "RtsCountryNoFemales",
+        "PartnerRejectionDescription": "Real time sampling for females in the respondent's country is disabled."
+    },
+    {
+        "RespondentRejectionTypeID": 43,
+        "PartnerRejectionName": "RtsProviderDisabled",
+        "PartnerRejectionDescription": "Real time sampling for the respondent's provider is disabled."
+    },
+    {
+        "RespondentRejectionTypeID": 44,
+        "PartnerRejectionName": "RtsUnknownProvider",
+        "PartnerRejectionDescription": "The real time sampling respondent's provider is unknown."
+    },
+    {
+        "RespondentRejectionTypeID": 45,
+        "PartnerRejectionName": "RtsUnknownCountry",
+        "PartnerRejectionDescription": "The real time sampling respondent's country is unknown."
+    },
+    {
+        "RespondentRejectionTypeID": 46,
+        "PartnerRejectionName": "ExcludedWaveTaken",
+        "PartnerRejectionDescription": "The panelist had previously completed a wave which the tracker type survey they were invited had set up as a reason for exclusion."
+    },
+    {
+        "RespondentRejectionTypeID": 47,
+        "PartnerRejectionName": "RTSCountryThrottled",
+        "PartnerRejectionDescription": "RTS for the respondent's country is currently throttled."
+    },
+    {
+        "RespondentRejectionTypeID": 48,
+        "PartnerRejectionName": "RTSProviderThrottled",
+        "PartnerRejectionDescription": "The respondent's RTS Provider, for the respondent's country, is currently throttled."
+    },
+    {
+        "RespondentRejectionTypeID": 49,
+        "PartnerRejectionName": "SurveyClosed",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) responded to an invitation but the quota is currently closed."
+    },
+    {
+        "RespondentRejectionTypeID": 50,
+        "PartnerRejectionName": "SurveyNotLive",
+        "PartnerRejectionDescription": "The respondent responded to an invitation but the survey is not currently in live status and as such, no traffic is allowed into the survey."
+    },
+    {
+        "RespondentRejectionTypeID": 51,
+        "PartnerRejectionName": "GidNoReservationForRespondent",
+        "PartnerRejectionDescription": "There was no GID reserved for the respondent (panelist)."
+    },
+    {
+        "RespondentRejectionTypeID": 52,
+        "PartnerRejectionName": "GidDynamicPoolExhausted",
+        "PartnerRejectionDescription": "There are no GID values remaining to assign to respondents."
+    },
+    {
+        "RespondentRejectionTypeID": 53,
+        "PartnerRejectionName": "NoMatchInTrouble",
+        "PartnerRejectionDescription": "Looking for in-trouble matches only. The match did not contain an in-trouble sub-quota."
+    },
+    {
+        "RespondentRejectionTypeID": 54,
+        "PartnerRejectionName": "RTSBlockedEmail",
+        "PartnerRejectionDescription": "The RTS respondent provided an email that is being blocked."
+    },
+    {
+        "RespondentRejectionTypeID": 55,
+        "PartnerRejectionName": "RTSBlockedIPAddress",
+        "PartnerRejectionDescription": "The RTS respondent's IP Address was blocked."
+    },
+    {
+        "RespondentRejectionTypeID": 56,
+        "PartnerRejectionName": "RTSBlockedProviderRespondentID",
+        "PartnerRejectionDescription": "The RTS respondent's RTS Provider Respondent ID was blocked."
+    },
+    {
+        "RespondentRejectionTypeID": 57,
+        "PartnerRejectionName": "AccountGroupSurveyTaken",
+        "PartnerRejectionDescription": "Related Account from the Respondent Account Group has already taken the survey."
+    },
+    {
+        "RespondentRejectionTypeID": 58,
+        "PartnerRejectionName": "AccountGroupExcludedSurveyTaken",
+        "PartnerRejectionDescription": "The respondent had previously taken a survey using a different account from their account group which procluded them from taking the suvey to which they were invited."
+    },
+    {
+        "RespondentRejectionTypeID": 59,
+        "PartnerRejectionName": "AccountGroupExcludedWaveTaken",
+        "PartnerRejectionDescription": "The respondent had previously completed a wave using a different account from their account group which the tracker type survey they were invited had set up as a reason for exclusion."
+    },
+    {
+        "RespondentRejectionTypeID": 60,
+        "PartnerRejectionName": "GidIllegalChannelForGidType",
+        "PartnerRejectionDescription": "Respondent's channel is not supported for surveys using this GID type."
+    },
+    {
+        "RespondentRejectionTypeID": 61,
+        "PartnerRejectionName": "ProjectRespondentDedupe",
+        "PartnerRejectionDescription": "Panelist has been deduped against the list provided for the project by the client."
+    },
+    {
+        "RespondentRejectionTypeID": 62,
+        "PartnerRejectionName": "VendorCertificationNotMet",
+        "PartnerRejectionDescription": "Panelist has not been certified by the certification vendors in the project."
+    },
+    {
+        "RespondentRejectionTypeID": 63,
+        "PartnerRejectionName": "PhysicianValidationNotMet",
+        "PartnerRejectionDescription": "The respondent could not be validated as a physician on the given information."
+    },
+    {
+        "RespondentRejectionTypeID": 64,
+        "PartnerRejectionName": "AccountGroupSurveyStarted",
+        "PartnerRejectionDescription": "Related Account from the Respondent's Account Group has already started the survey."
+    },
+    {
+        "RespondentRejectionTypeID": 65,
+        "PartnerRejectionName": "BlockedPanelistEmailStatus",
+        "PartnerRejectionDescription": "To take a survey, a Panelist's EmailStatus must be 'Confirmed'."
+    },
+    {
+        "RespondentRejectionTypeID": 66,
+        "PartnerRejectionName": "BlockedPanelistStatus",
+        "PartnerRejectionDescription": "To take a survey, a Panelist's Status must be Active (Double Opt-in)."
+    },
+    {
+        "RespondentRejectionTypeID": 67,
+        "PartnerRejectionName": "NotEnabledThirdPartySupply",
+        "PartnerRejectionDescription": "The third party supply respondent responded to an invitation but the survey is currently not enabled for third party supply."
+    },
+    {
+        "RespondentRejectionTypeID": 68,
+        "PartnerRejectionName": "ThirdPartySupplyOrderFilled",
+        "PartnerRejectionDescription": "The third party supply order is full."
+    },
+    {
+        "RespondentRejectionTypeID": 69,
+        "PartnerRejectionName": "ThirdPartySupplyOrderOnHold",
+        "PartnerRejectionDescription": "The third party supply respondent responded to an invitation but the supply order is currently on hold."
+    },
+    {
+        "RespondentRejectionTypeID": 70,
+        "PartnerRejectionName": "IncorrectRespondentCountry",
+        "PartnerRejectionDescription": "The country stated by the user does not match the country from where the web request originates."
+    },
+    {
+        "RespondentRejectionTypeID": 71,
+        "PartnerRejectionName": "QuotaNotValidForChannel",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) responded to an invitation but the quota was not valid for the respondent's channel."
+    },
+    {
+        "RespondentRejectionTypeID": 72,
+        "PartnerRejectionName": "BlockedIPAddress",
+        "PartnerRejectionDescription": "The user has attempted the survey from a blocked IP Address"
+    },
+    {
+        "RespondentRejectionTypeID": 73,
+        "PartnerRejectionName": "InternetIdentifierSurveyAttempted",
+        "PartnerRejectionDescription": "This survey was already attempted by a respondent with the same internet identifier"
+    },
+    {
+        "RespondentRejectionTypeID": 74,
+        "PartnerRejectionName": "NoMatchSurveyCompanyLegacyType",
+        "PartnerRejectionDescription": "The respondent (panelist) company legacy panel (GFOL/Toluna) is not defined for the survey."
+    },
+    {
+        "RespondentRejectionTypeID": 75,
+        "PartnerRejectionName": "SurveyVerificationLevelFailed",
+        "PartnerRejectionDescription": "The respondent's verification limit is below the Survey's Minimum Verification Requirements."
+    },
+    {
+        "RespondentRejectionTypeID": 76,
+        "PartnerRejectionName": "Failed to Create Survey URL",
+        "PartnerRejectionDescription": "The Respondent Survey URL could not be created. Either the ProductLineType is not supported or the Survey URL is blank"
+    },
+    {
+        "RespondentRejectionTypeID": 77,
+        "PartnerRejectionName": "Blocked Account Group",
+        "PartnerRejectionDescription": "The account group of the respondent was marked as blocked."
+    },
+    {
+        "RespondentRejectionTypeID": 78,
+        "PartnerRejectionName": "No Pre-Qualified Surveys Found",
+        "PartnerRejectionDescription": "There were no surveys that were pre-qualified (qualified without affirmations or with pre-checked affirmations) for the respondent"
+    },
+    {
+        "RespondentRejectionTypeID": 79,
+        "PartnerRejectionName": "Respondent Type Limit-Quota Full",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) was invited to a quota that is now full based on the respondent type limit."
+    },
+    {
+        "RespondentRejectionTypeID": 80,
+        "PartnerRejectionName": "Respondent Type Limit-SubQuota Full",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) was invited to a quota and a subquota to which they match is now full based on the respondent type limit."
+    },
+    {
+        "RespondentRejectionTypeID": 81,
+        "PartnerRejectionName": "FDS Starts Quota Full",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) was invited to a quota that is now full based on FDS starts quota size."
+    },
+    {
+        "RespondentRejectionTypeID": 82,
+        "PartnerRejectionName": "FDS Starts SubQuota Full",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) was invited to a quota and a subquota to which they match is now full based on the FDS starts quota size."
+    },
+    {
+        "RespondentRejectionTypeID": 83,
+        "PartnerRejectionName": "Invalid Email",
+        "PartnerRejectionDescription": "The email provided was invalid or could not be validated in a timely manner."
+    },
+    {
+        "RespondentRejectionTypeID": 84,
+        "PartnerRejectionName": "PreviouslyTerminatedPreScreener",
+        "PartnerRejectionDescription": "The respondent previously attempted the prescreener and was terminated."
+    },
+    {
+        "RespondentRejectionTypeID": 85,
+        "PartnerRejectionName": "CompletedScreenerForDifferentWave",
+        "PartnerRejectionDescription": "The respondent attempted the prescreener from a different wave."
+    },
+    {
+        "RespondentRejectionTypeID": 86,
+        "PartnerRejectionName": "Intervallic Quota Full",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) was invited to a quota that is now full based on the daily intervallic limit."
+    },
+    {
+        "RespondentRejectionTypeID": 87,
+        "PartnerRejectionName": "Intervallic SubQuota Full",
+        "PartnerRejectionDescription": "The respondent (panelist or oss) was invited to a quota and a subquota to which they match is now full based on the daily intervallic limit."
+    },
+    {
+        "RespondentRejectionTypeID": 88,
+        "PartnerRejectionName": "Intervallic Not Found",
+        "PartnerRejectionDescription": "The Intervallic quota for this interval was not found and the survey is using Intervallic Targets"
+    },
+    {
+        "RespondentRejectionTypeID": 89,
+        "PartnerRejectionName": "RespondentBasicSampleCategoryThrottled",
+        "PartnerRejectionDescription": "The Respondent Basic Sample Category (Age, Gender) are not required at this time"
+    },
+    {
+        "RespondentRejectionTypeID": 90,
+        "PartnerRejectionName": "RespondentExtendedSampleCategoryThrottled",
+        "PartnerRejectionDescription": "The Respondent Extended Sample Category (Ethnicity, Race) are not required at this time"
+    },
+    {
+        "RespondentRejectionTypeID": 91,
+        "PartnerRejectionName": "RespondentSampleCategoryUnknown",
+        "PartnerRejectionDescription": "The Respondent Sample Category (Age, gender) are not known at this time"
+    },
+    {
+        "RespondentRejectionTypeID": 92,
+        "PartnerRejectionName": "NoMatchSurveyBrand",
+        "PartnerRejectionDescription": "The respondent brand is not defined for the survey"
+    },
+    {
+        "RespondentRejectionTypeID": 93,
+        "PartnerRejectionName": "IncorrectResponseCountry",
+        "PartnerRejectionDescription": "The response was recorded from a different country than the respondent's profile, based on the response IP address."
+    },
+    {
+        "RespondentRejectionTypeID": 94,
+        "PartnerRejectionName": "NotEnabledIntegratedPanelRiver",
+        "PartnerRejectionDescription": "The survey is not available to respondents whose channel id is IP_RIVER."
+    },
+    {
+        "RespondentRejectionTypeID": 95,
+        "PartnerRejectionName": "StudyTypeAlreadyTakenInAllocatedTime",
+        "PartnerRejectionDescription": "The respondent has taken this studytype in the exclusion duration."
+    },
+    {
+        "RespondentRejectionTypeID": 96,
+        "PartnerRejectionName": "DeviceTypeIDNotSupportedForSurvey",
+        "PartnerRejectionDescription": "The respondent is on a device that the survey does not support."
+    },
+    {
+        "RespondentRejectionTypeID": 97,
+        "PartnerRejectionName": "VerificationFailed",
+        "PartnerRejectionDescription": "The respondent failed verification"
+    },
+    {
+        "RespondentRejectionTypeID": 98,
+        "PartnerRejectionName": "VerificationFailed",
+        "PartnerRejectionDescription": "The respondent failed verification"
+    },
+    {
+        "RespondentRejectionTypeID": 99,
+        "PartnerRejectionName": "Success",
+        "PartnerRejectionDescription": "Not rejected. The respondent was started in a survey."
+    },
+    {
+        "RespondentRejectionTypeID": 100,
+        "PartnerRejectionName": "Inactive MemberProvider",
+        "PartnerRejectionDescription": "Inactive MemberProvider"
+    },
+    {
+        "RespondentRejectionTypeID": 101,
+        "PartnerRejectionName": "Soft launch full",
+        "PartnerRejectionDescription": "Soft Lunch is full."
+    },
+    {
+        "RespondentRejectionTypeID": 102,
+        "PartnerRejectionName": "InsightExpress rejection",
+        "PartnerRejectionDescription": "General InsightExpress rejection. The respondent was rejected by an InsightExpress test"
+    },
+    {
+        "RespondentRejectionTypeID": 103,
+        "PartnerRejectionName": "NonQuotaDemographicRejection",
+        "PartnerRejectionDescription": "This rejection is due to non-demographic disqualification such as device type, LOI mismatch etc"
+    },
+    {
+        "RespondentRejectionTypeID": 104,
+        "PartnerRejectionName": "No surveys found after profile",
+        "PartnerRejectionDescription": "The system did not found any survey for the member after DP/AP"
+    },
+    {
+        "RespondentRejectionTypeID": 105,
+        "PartnerRejectionName": "Survey GroupID Mismatch",
+        "PartnerRejectionDescription": "Survey GroupID Mismatch"
+    },
+    {
+        "RespondentRejectionTypeID": 106,
+        "PartnerRejectionName": "Survey GroupTypeID Mismatch",
+        "PartnerRejectionDescription": "Survey GroupTypeID Mismatch"
+    },
+    {
+        "RespondentRejectionTypeID": 107,
+        "PartnerRejectionName": "Survey LOI Mismatch",
+        "PartnerRejectionDescription": "Survey LOI Mismatch"
+    },
+    {
+        "RespondentRejectionTypeID": 108,
+        "PartnerRejectionName": "MemberNotRegistered",
+        "PartnerRejectionDescription": "Member not registered for taking surveys"
+    },
+    {
+        "RespondentRejectionTypeID": 109,
+        "PartnerRejectionName": "NotEnabledIPExternal",
+        "PartnerRejectionDescription": "The survey is not enabled for IP External"
+    },
+    {
+        "RespondentRejectionTypeID": 110,
+        "PartnerRejectionName": "NotEnabledIPOnDemand",
+        "PartnerRejectionDescription": "The survey is not enabled for IP OnDemand (Supply Market Place)"
+    },
+    {
+        "RespondentRejectionTypeID": 111,
+        "PartnerRejectionName": "IPExcluded",
+        "PartnerRejectionDescription": "IP is excluded for the survey"
+    },
+    {
+        "RespondentRejectionTypeID": 112,
+        "PartnerRejectionName": "IPExcluded",
+        "PartnerRejectionDescription": "IP is excluded for the survey"
+    },
+    {
+        "RespondentRejectionTypeID": 113,
+        "PartnerRejectionName": "IPExcluded",
+        "PartnerRejectionDescription": "IP is excluded for the survey"
+    },
+    {
+        "RespondentRejectionTypeID": 114,
+        "PartnerRejectionName": "IPProviderCostNoMatch",
+        "PartnerRejectionDescription": "IP Provider cost is higher than current survey limit"
+    },
+    {
+        "RespondentRejectionTypeID": 115,
+        "PartnerRejectionName": "Failed Captcha challenge",
+        "PartnerRejectionDescription": "Failed Captcha challenge"
+    },
+    {
+        "RespondentRejectionTypeID": 116,
+        "PartnerRejectionName": "StartsQuotaFull",
+        "PartnerRejectionDescription": "The respondent was invited to a quota and a subquota that currently has enough starts to achive target completes."
+    },
+    {
+        "RespondentRejectionTypeID": 117,
+        "PartnerRejectionName": "IPPartnerPriorityOverrideRestricted",
+        "PartnerRejectionDescription": "IPPartnerPriorityOverride caused the partner to not be eligible to participate on the survey at that time."
+    },
+    {
+        "RespondentRejectionTypeID": 118,
+        "PartnerRejectionName": "ExternalSupplySurveyMemberTypeNotSupported",
+        "PartnerRejectionDescription": "External Supply Survey Member Type Not Supported"
+    },
+    {
+        "RespondentRejectionTypeID": 119,
+        "PartnerRejectionName": "IPProviderPriceMissing",
+        "PartnerRejectionDescription": "IP Provider Price Missing"
+    },
+    {
+        "RespondentRejectionTypeID": 120,
+        "PartnerRejectionName": "CorruptedRoutableQuestions",
+        "PartnerRejectionDescription": "Routable questions have a data issue"
+    },
+    {
+        "RespondentRejectionTypeID": 121,
+        "PartnerRejectionName": "SubQuotaThrottled",
+        "PartnerRejectionDescription": "SubQuota is throttled for starts"
+    },
+    {
+        "RespondentRejectionTypeID": 122,
+        "PartnerRejectionName": "SubQuotaConceptsNotAvailable",
+        "PartnerRejectionDescription": "Concepts based Quota - No available concepts for this SubQuota"
+    },
+    {
+        "RespondentRejectionTypeID": 123,
+        "PartnerRejectionName": "NotQualifiedOnTransientQuestion",
+        "PartnerRejectionDescription": "Member does not match the attribute of a transient question"
+    },
+    {
+        "RespondentRejectionTypeID": 124,
+        "PartnerRejectionName": "NotQualifiedOnInapplicableQuestion",
+        "PartnerRejectionDescription": "Not qualified on inapplicable questions."
+    },
+    {
+        "RespondentRejectionTypeID": 125,
+        "PartnerRejectionName": "EmptyUserAgent",
+        "PartnerRejectionDescription": "Member disqualified because he has an empty user agent string attached to his session."
+    },
+    {
+        "RespondentRejectionTypeID": 126,
+        "PartnerRejectionName": "FailedPartnerInviteValidation",
+        "PartnerRejectionDescription": "Invite/Entry failed partner validation prior to issuing invite link"
+    },
+    {
+        "RespondentRejectionTypeID": 127,
+        "PartnerRejectionName": "MaxWaveIpAddressCompletes",
+        "PartnerRejectionDescription": "Reached the max IP address completes per wave"
+    },
+    {
+        "RespondentRejectionTypeID": 128,
+        "PartnerRejectionName": "MaxWaveSubnetStarts",
+        "PartnerRejectionDescription": "Reached the max subnet starts per wave"
+    },
+    {
+        "RespondentRejectionTypeID": 129,
+        "PartnerRejectionName": "MaxWaveSubnetCompletes",
+        "PartnerRejectionDescription": "Reached the max subnet completes per wave"
+    },
+    {
+        "RespondentRejectionTypeID": 130,
+        "PartnerRejectionName": "MaxIpAddressDailyStarts",
+        "PartnerRejectionDescription": "Reached the max IP address starts per day"
+    },
+    {
+        "RespondentRejectionTypeID": 131,
+        "PartnerRejectionName": "MaxIpAddressDailyCompletes",
+        "PartnerRejectionDescription": "Reached the max IP address completes per day"
+    },
+    {
+        "RespondentRejectionTypeID": 132,
+        "PartnerRejectionName": "MaxSubnetDailyStarts",
+        "PartnerRejectionDescription": "Reached the max subnet starts per day"
+    },
+    {
+        "RespondentRejectionTypeID": 133,
+        "PartnerRejectionName": "MaxSubnetDailyCompletes",
+        "PartnerRejectionDescription": "Reached the max subnet completes per day"
+    },
+    {
+        "RespondentRejectionTypeID": 134,
+        "PartnerRejectionName": "DisabledJavaScript",
+        "PartnerRejectionDescription": "Member Disabled JavaScript"
+    },
+    {
+        "RespondentRejectionTypeID": 135,
+        "PartnerRejectionName": "SurveyIPPartnerCompletesCapAchieved",
+        "PartnerRejectionDescription": "IP Partner has satisfied the maximum completes based on partner completes cap"
+    },
+    {
+        "RespondentRejectionTypeID": 136,
+        "PartnerRejectionName": "FailedATT",
+        "PartnerRejectionDescription": "The respondent failed attention question"
+    },
+    {
+        "RespondentRejectionTypeID": 144,
+        "PartnerRejectionName": "CLIENT_SURVEY_EXCLUDED_SURVEY_TAKEN",
+        "PartnerRejectionDescription": "Client survey  excluded survey taken"
+    },
+    {
+        "RespondentRejectionTypeID": 145,
+        "PartnerRejectionName": "ParallelSurveyStarts",
+        "PartnerRejectionDescription": "Member reached parallel survey limit"
+    },
+    {
+        "RespondentRejectionTypeID": 146,
+        "PartnerRejectionName": "ImmediateParallelAttempt",
+        "PartnerRejectionDescription": "Member attempted parallel survey starts"
+    },
+    {
+        "RespondentRejectionTypeID": 158,
+        "PartnerRejectionName": "AllocatedDistributionFull",
+        "PartnerRejectionDescription": "IP Partner has reached the max allocated completes for the survey"
+    }
+]
